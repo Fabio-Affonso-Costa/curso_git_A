@@ -1,0 +1,4 @@
+mkdir dependencies
+pip install delta-spark==3.0.0 --target dependencies
+cd dependencies
+zip -r9 ../emrserverless_dependencies.zip .
